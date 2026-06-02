@@ -1,13 +1,5 @@
 # Twitter Comment Pack — Trym10M Build
 
-Bản repo upload sẵn cho `@trym10m`.
-
-Thay đổi chính:
-
-- Warmup / auto-follow target đã đổi sang `@trym10m`.
-- Giữ schema config tương thích với bot auto comment cũ: Mode A / B / C, Telegram, DeepSeek/OpenAI/Anthropic.
-- Không chứa cookies, API key, log hoặc file nhạy cảm.
-
 ## Cài đặt
 
 ```powershell
