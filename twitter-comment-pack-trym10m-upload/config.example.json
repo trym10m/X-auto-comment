@@ -1,0 +1,27 @@
+{
+  "cookiesFile": "data/cookies.json",
+  "telegram": {
+    "botToken": "",
+    "chatId": ""
+  },
+  "mode": "A",
+  "modeA": {
+    "listIds": ["YOUR_LIST_ID"],
+    "language": "ja",
+    "stylePrompt": "cute japanese anime cosplay girl style, natural short comments, casual X(Twitter) tone, friendly, soft reactions, under 150 characters"
+  },
+  "modeB": {
+    "ownerUsername": "trym10m",
+    "hashtags": ["#Cosplay", "#anime", "#NIKKE", "#genshin"],
+    "crossPostListId": ""
+  },
+  "commentsPerHour": 5,
+  "delayMinMs": 60000,
+  "delayMaxMs": 240000,
+  "ai": {
+    "provider": "deepseek",
+    "apiKey": "YOUR_API_KEY",
+    "model": "deepseek-v4-flash",
+    "baseURL": ""
+  }
+}

@@ -1,0 +1,26 @@
+HUONG DAN UPLOAD LEN GITHUB
+
+1. Giai nen file twitter-comment-pack-trym10m-upload.zip.
+2. Vao GitHub -> dau + -> New repository.
+3. Dat ten repo, vi du: twitter-comment-pack-trym10m.
+4. Khong can tick Add README.
+5. Sau khi tao repo, chon Add file -> Upload files.
+6. Keo TOAN BO file/thu muc ben trong thu muc twitter-comment-pack-trym10m-upload vao GitHub.
+7. Bam Commit changes.
+
+KHONG upload cac file sau neu co:
+- node_modules
+- data/config.json
+- data/cookies.json
+- data/run.log
+- .env
+
+Neu GitHub bao qua nhieu file, dung Git command:
+
+cd "duong_dan_den_thu_muc\twitter-comment-pack-trym10m-upload"
+git init
+git add .
+git commit -m "Initial trym10m build"
+git branch -M main
+git remote add origin https://github.com/Trym10M/twitter-comment-pack-trym10m.git
+git push -u origin main
