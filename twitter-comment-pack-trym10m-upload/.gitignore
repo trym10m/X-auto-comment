@@ -1,9 +1,0 @@
-node_modules/
-data/config.json
-data/cookies.json
-data/run.log
-*.log
-.env
-.cache/
-tmp/
-temp/
